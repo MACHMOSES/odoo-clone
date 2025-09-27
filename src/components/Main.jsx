@@ -52,8 +52,7 @@ const Main = (props) => {
                             <li><a className='dropdown-item fw-bold' href="#">Small Business (&lt;50)</a></li>
                             <li><a className='dropdown-item fw-bold' href="#" >Mid sized / Large company</a></li>
                         </ul>
-                    </div>
-                    
+                    </div>    
                 </div>
             </section>
             <Icon listIcon={listIcon}/>
