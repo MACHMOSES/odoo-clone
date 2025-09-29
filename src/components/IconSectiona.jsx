@@ -1,4 +1,5 @@
 import optimizedProductiv from '../assets/images/optimizedProductivity.webp'
+import videoIcon from '../assets/images/video icon.svg'
 
 const IconSectiona = () => {
     return(
@@ -60,15 +61,19 @@ const IconSectiona = () => {
             <div className='d-flex'>
                     <br/>
                     <br/>
-                    <img src={optimizedProductiv} alt="various features of productive optimization" style={{maxWidth:'1200px'}} />
+                    <img src={optimizedProductiv} alt="various features of productive optimization" className='img-fluid' />
                     
             
             </div>
 
-                <div className='d-flex justify-content-center align-items-center'>
-                    <p style={{maxWidth:'400px', fontSize:'25px'}}>
+                <div className='d-flex justify-content-center align-items-center mt-4'>
+                    <p style={{maxWidth:'400px', fontSize:'25px'}} className=''>
                         <span className='fw-bold'> Experience true speed</span>, reduced data entry, smart AI, and a fast UI. All operations are done in less than 90ms - faster than a blink.
                     </p>
+            </div>
+            <div>
+                <img src={videoIcon} alt="click to watch a video" />
+                <span style={{fontSize:'25px', fontFamily:'Cursive'}} className='ms-2'>Compare woth SAP</span>
             </div>
         
             
