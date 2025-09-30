@@ -5,6 +5,7 @@ import Main from './components/Main';
 import MachineSection from './components/MachineSection';
 import CardSection from './components/CardSection';
 import Qoute from './components/Qoute';
+import Footer from './components/Footer';
 
 function App()  {
   return (
@@ -14,7 +15,7 @@ function App()  {
       <MachineSection/>
       <CardSection/>
       <Qoute/>
-      
+      <Footer/>
     </div>
   );
 }
